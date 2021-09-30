@@ -14,7 +14,7 @@ document.getElementById("result").innerHTML = '<img id = "captured_image" src = 
  } );    
 }
 console.log('ml5 version:', ml5.version);
-classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/e93cMMKYA/https://teachablemachine.withgoogle.com/models/e93cMMKYA/model.json',modelLoaded);
+classifier = ml5.imageClassifier('https://teachablemachine.withgoogle.com/models/e93cMMKYA/model.json',modelLoaded);
 function modelLoaded()
 {
 console.log('modelloaded');    
